@@ -6,18 +6,13 @@
         <title>Nokuphila | Portfolio</title>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
 
         <!--NAVBAR-->
         <nav>
-            <h2 class="logo">Nokuphila</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <h2 class="logo">Nokuphila Shabalala</h2>
         </nav>
 
         <!--HERO SECTION-->
@@ -28,6 +23,8 @@
                     <h1>Hello, I'm Nokuphila</h1>
                     <p>Aspiring Software Developer</p>
                     <a href="#projects" class="btn">View My Work</a>
+                    <a href="assets/Nokuphila Shabalala_CV.pdf" download class="cv-btn">Download CV</a>
+                    <a href="#contact" class="cv-btn contact-btn">Contact Me</a>
                 </div>
 
                 <div class="hero-image">
@@ -64,7 +61,7 @@
             <h2>Qualifications</h2>
             <div class="card">
                 <div class="qualification-item">
-                    <h3>B Sc Computer Science and Information Technology</h3>
+                    <h3><i class="fas fa-graduation-cap"></i> Sc Computer Science and Information Technology</h3>
                     <span>Completed: 2021 - 2025</span>
                     <p>Comprehensive study in Computer Science fundamentals, Information
                        Technology, Software development, data structure, System Analysis and
@@ -82,7 +79,7 @@
 
                 <!--Frontend-->
                 <div class="skills-category card">
-                    <h3>Frontend Development</h3>
+                    <h3><i class="fas fa-laptop-code"></i>Frontend Development</h3>
                     <div class="skills-container">
                         <p> HTML5, CSS3, Javascript, Responsive Design</p>
                     </div>
@@ -90,9 +87,25 @@
 
                 <!--Backtend-->
                 <div class="skills-category card">
-                    <h3>Backtend Development</h3>
+                    <h3><i class="fas fa-server"></i>Backend Development</h3>
                     <div class="skills-container">
                         <p>Java, C++, Python, ASP.Net, C#, Database design, data structures, OOP</p>
+                    </div>
+                </div>
+
+                <!--Tools and technologies-->
+                <div class="skills-category card">
+                    <h3><i class="fas fa-tools"></i>Tools and Technologies</h3>
+                    <div class="skills-container">
+                        <p>Github, SQL, VS Code, Canva</p>
+                    </div>
+                </div>
+
+                <!--Core Skills-->
+                <div class="skills-category card">
+                    <h3><i class="fas fa-brain"></i>Core Skills</h3>
+                    <div class="skills-container">
+                        <p>Collaboration, Time management, Problems solving, Teamwork and Analytical thinking</p>
                     </div>
                 </div>
             </div>
@@ -121,7 +134,7 @@
 
         <!---CONTACT SECTION--->
         <section id="contact" class="contact">
-            <h2>Contact Me</h2>
+            <h2><i class="fas fa-envelop"></i>Contact Me</h2>
 
             <form action="https://formspree.io/f/xaqaayaq" method="POST">
                 <input type="text" name="name" placeholder="Your Name" required>
