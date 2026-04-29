@@ -423,12 +423,10 @@ h3 i {
 .contact-icons a {
     font-size: 40px;
     color: #f1f5f9;
-    transition: 0.3s ease;
 }
 
 .contact-icons a:hover {
     color: #6c63ff;
-    transform: translateY(-5px);
 }
 
 .footer {
