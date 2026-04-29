@@ -43,7 +43,7 @@ I am an aspiring software developer passionate about building practical and user
 - linkedin : www.linkedin.com/in/nokuphila-shabalala-b0a424233
 - github : https://github.com/Nokuphila21/portfolio
 
-##Licence
+## Licence
 This project is for educational purposes
 
 
