@@ -412,3 +412,30 @@ h3 i {
     background-color: #6c63ff;
     color: white;
 }
+
+.contact-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icons a {
+    font-size: 28px;
+    color: #f1f5f9;
+    transition: 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #6c63ff;
+    transform: translateY(-5px);
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    color: #94a3b8;
+    font-size: 14px;
+    background: #0f172a;
+}
