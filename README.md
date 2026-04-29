@@ -35,7 +35,7 @@ I am an aspiring software developer passionate about building practical and user
    https://github.com/nokuphila21/portfolio
 
 2. Open the folder
-   desktop/portfolio
+   cd Nokuphila21
 3. Open 'index.html' in your browser
 
 ## Contact
