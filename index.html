@@ -28,9 +28,9 @@
                     <img src="profile.jpg" alt="Profile Image">
                 </div>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn">View My Work</a>
-                    <a href="Nokuphila Shabalala_CV.pdf" download class="cv-btn">Download CV</a>
-                    <a href="#contact" class="cv-btn contact-btn">Contact Me</a>
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="Nokuphila Shabalala_CV.pdf" download class="btn btn-outline">Download CV</a>
                 </div>
             </div>
             
@@ -63,7 +63,7 @@
             <h2>Qualifications</h2>
             <div class="card">
                 <div class="qualification-item">
-                    <h3><i class="fas fa-graduation-cap"></i> Sc Computer Science and Information Technology</h3>
+                    <h3><i class="fas fa-graduation-cap"></i>BSc Computer Science and Information Technology</h3>
                     <span>Completed: 2021 - 2025</span>
                     <p>Comprehensive study in Computer Science fundamentals, Information
                        Technology, Software development, data structure, System Analysis and
@@ -137,13 +137,14 @@
         <!---CONTACT SECTION--->
         <section id="contact" class="contact">
             <h2><i class="fas fa-envelop"></i>Contact Me</h2>
+            <p class="contact-subtext">Feel free to reach out - I'd love to hear from you!</p>
 
             <form action="https://formspree.io/f/xaqaayaq" method="POST">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message"></textarea>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
 
             <p>Email: nokuphilaamshengu@gmail.com</p>
