@@ -4,10 +4,11 @@ My personal portfolio website
 This is my personal portfolio websiye designed to showcase my skills, projects, and experience as anaspiring software developer
 
 ## Live demo
+https://nokuphila21.github.io/portfolio/
 
 ## Tech used
--HTML5
--CSS3
+- HTML5
+- CSS3
 
 ## Features
 -Responsive design - mobile-friendly
