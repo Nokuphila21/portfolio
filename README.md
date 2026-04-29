@@ -32,7 +32,6 @@ I am an aspiring software developer passionate about building practical and user
 ## setup and installation
 1. Clone the repository
    https://github.com/nokuphila21/portfolio
-   https://nokuphila21.github.io/portfolio
 
 2. Open the folder
    desktop/portfolio
