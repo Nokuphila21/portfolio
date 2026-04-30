@@ -175,7 +175,8 @@ html {
 
 /*Projects section*/
 .projects {
-    background: transparent;
+    background-color: #0f172a;
+    color: #f1f5f9;
     text-align: center;
 }
 
@@ -299,7 +300,8 @@ form button:hover {
 }
 
 .qualifications {
-    background: #f9f9f9;
+    background-color: #0f172a;
+    color: #f1f5f9;
     text-align: center;
 }
 
