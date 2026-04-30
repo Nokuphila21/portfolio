@@ -10,7 +10,15 @@ body {
     /*font-family: Arial, sans-serif;*/
     font-family: 'Poppins', sans-serif;
     /*line-height: 1.6;*/
-    background-color: #0f172a;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+:root {
+    --bg-color: #0f172a;
+    --primary-text: #f1f5f9;
+    --secondary-text: #94a3b8;
+    --accent: #6c63ff;
 }
 
 /*universal card style*/
@@ -133,6 +141,7 @@ section {
 
 section {
     padding: 60px 50px;
+    background: transparent;
 }
 
 
@@ -424,11 +433,14 @@ h3 i {
 
 .contact-icons a {
     font-size: 40px;
-    color: #f1f5f9;
+    color: #ffffff;
+    opacity: 1;
+    transition: 0.3s ease;
 }
 
 .contact-icons a:hover {
     color: #6c63ff;
+    transform: translateY(-5px);
 }
 
 .footer {
