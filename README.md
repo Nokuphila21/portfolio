@@ -1,4 +1,4 @@
-# Nokuphila Shabalala |Portfolio
+# Nokuphila Shabalala | Portfolio
 My personal portfolio website
 ## Overview
 This is my personal portfolio websiye designed to showcase my skills, projects, and experience as anaspiring software developer
