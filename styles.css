@@ -26,6 +26,10 @@ a {
     color: #6c63ff;
 }
 
+section {
+    background: transparent;
+}
+
 /*:root {
     --bg-color: #0f172a;
     --primary-text: #f1f5f9;
@@ -233,6 +237,12 @@ h2 {
     }
 }
 
+.card, .project-card, .skills-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px;
+}
+
 .hero-content {
     display: flex;
     align-items: center;
@@ -255,11 +265,11 @@ h2 {
     }
 }
 
-body{
+/*body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-}
+}*/
 
 form {
     max-width: 500px;
