@@ -429,6 +429,12 @@ h3 i {
     color: #6c63ff;
 }
 
+.fa-brands, .fab {
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+
+
 .footer {
     text-align: center;
     padding: 25px;
