@@ -1,7 +1,7 @@
 # Nokuphila Shabalala | Portfolio
 My personal portfolio website
 ## Overview
-This is my personal portfolio websiye designed to showcase my skills, projects, and experience as anaspiring software developer
+This is my personal portfolio website designed to showcase my skills, projects, and experience as anaspiring software developer
 
 ## Live demo
 https://nokuphila21.github.io/portfolio/
@@ -19,7 +19,7 @@ https://nokuphila21.github.io/portfolio/
 -Projects section with Github links
 
 ## About me
-I am an aspiring software developer passionate about building practical and user-friendly applications. I enjoy working with OOP and continuously improving my skills in this ever eveolving tech world.
+I am an aspiring software developer passionate about building practical and user-friendly applications. I enjoy working with OOP and continuously improving my skills in this ever evolving tech world.
 
 ## Project structure
 /portfolio
