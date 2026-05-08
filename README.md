@@ -23,7 +23,7 @@ I am an aspiring software developer passionate about building practical and user
 
 ## Project structure
 /portfolio
-|--Nokuphila Shabalala_CV.pdf
+|--Nokuphila_Shabalala_CV.pdf
 |--README.md
 |--images.zip
 |--index.html
