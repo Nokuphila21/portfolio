@@ -184,6 +184,41 @@ nav ul li a {
    align-items: center;
 }
 
+/* About section - side by side layout */
+.about-inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.about-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 4px solid #6c63ff; /* change this to match your accent colour */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+}
+
+/* Stack vertically on mobile */
+@media (max-width: 768px) {
+  .about-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-photo {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+
 .btn {
     display: inline-block;
     padding: 12px 25px;
