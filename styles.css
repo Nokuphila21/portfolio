@@ -10,8 +10,9 @@ body {
     /*font-family: Arial, sans-serif;*/
     font-family: 'Poppins', sans-serif;
     /*line-height: 1.6;*/
-    background: #0f172a;
-    color: #f1f5f9;
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+    color: #ffffff;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -59,32 +60,28 @@ section {
     max-width: 600px;
 }
 
-/*nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background: #111;
-    color: #fff;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: rgba(26, 26, 46, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+.logo {
+  background: linear-gradient(45deg, #64ffda, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav ul li a {
-    color: #00f2fe;
-}*/
 
 /* NAVBAR */
 .navbar {
@@ -109,12 +106,12 @@ nav ul li a {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
-    transition: 0.3s;
+    color: #cdd8e3;
+    transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #6c63ff;
+    color: #64ffda;
 }
 
 /* HAMBURGER */
@@ -160,17 +157,35 @@ nav ul li a {
 
 
 .hero {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
     text-align: center;
-    color: #fff;
+    padding: 0 2rem;
+}
+
+.hero-content {
+  max-width: 700px;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #ffffff 40%, #64ffda 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0;
+    animation: fadeInUp 0.7s ease 0.3s forwards;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #a0b8c8;
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  animation: fadeInUp 0.7s ease 0.5s forwards;
 }
 
 .hero p {
@@ -178,10 +193,12 @@ nav ul li a {
 }
 
 .hero-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-   align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeInUp 0.7s ease 0.7s forwards;
 }
 
 /* About section - side by side layout */
@@ -221,41 +238,42 @@ nav ul li a {
 
 .btn {
     display: inline-block;
-    padding: 12px 25px;
-    font-size: 16px;
-    background: #111;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 25px;
-    transition: 0.3s;
+    padding: 0.85rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
-    margin-top: 10px;
-    text-align: center;
+    cursor: pointer;
+    border: none
 }
 
 .btn:hover {
-    background: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(100, 255, 218, 0.3);
 }
 
 .btn-primary {
-    background-color: #6c63ff;
-    color: white;
-    border: none;
+    background: linear-gradient(45deg, #64ffda, #00bcd4);
+    color: #1a1a2e;
 }
 
-.btn-primary:hover {
-    background-color: #4a47c4;
-    transform: translateY(-3px);
+.btn-secondary {
+  background: transparent;
+  color: #64ffda;
+  border: 2px solid #64ffda;
 }
 
 .btn-outline {
-    background-color: transparent;
-    color: #6c63ff;
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
 }    
 
-.btn-outline:hover {
-    background-color: #6c63ff;
-    color: white;
+/* ── Animation ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 section {
@@ -601,4 +619,9 @@ h3 i {
     color: #f1f5f9;
     border-radius: 12px;
     padding: 20px;
+}
+
+/* ── Scroll behaviour ── */
+html {
+  scroll-behavior: smooth;
 }
